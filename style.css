@@ -1,0 +1,54 @@
+body {
+    /* font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 60px;
+}
+
+.card {
+    /* background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 20px;
+    text-align: center; */
+    background: rgb(202,202,202);
+    background: linear-gradient(39deg, rgba(202,202,202,1) 40%, rgba(204,195,180,1) 100%);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1b7a7a;
+    width: 500px;
+    height: 550px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: black;
+}
+
+.cake-image {
+    /* width: 100%;
+    border-radius: 10px; */
+    width: 95px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+    margin: 20px 0;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
